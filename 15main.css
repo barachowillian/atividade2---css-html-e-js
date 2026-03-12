@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #222; /* Fundo escuro */
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    color: white; /* Texto branco */
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #555; /* Muda de cor ao passar o mouse */
+}

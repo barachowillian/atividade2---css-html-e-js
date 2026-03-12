@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-sombra {
+    font-size: 40px;
+    color: #333;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}

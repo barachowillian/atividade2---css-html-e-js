@@ -1,0 +1,15 @@
+.botao-animado {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: background-color 0.4s ease;
+}
+
+.botao-animado:hover {
+    background-color: #4CAF50;
+}

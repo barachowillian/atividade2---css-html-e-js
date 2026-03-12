@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='18main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <button id="abrirModal">Abrir Modal</button>
+
+<div id="modal" class="modal">
+    <div class="modal-conteudo">
+        <p>Essa é uma janela modal simples.</p>
+        <button id="fecharModal">Fechar</button>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById("modal");
+    const abrir = document.getElementById("abrirModal");
+    const fechar = document.getElementById("fecharModal");
+
+    abrir.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    fechar.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
+
+</body>
+</html>

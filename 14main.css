@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* ocupa a tela toda */
+}
+
+.coluna {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.coluna1 {
+    background-color: #2196F3; /* Azul */
+}
+
+.coluna2 {
+    background-color: #4CAF50; /* Verde */
+}
+
+.coluna3 {
+    background-color: #f44336; /* Vermelho */
+}
